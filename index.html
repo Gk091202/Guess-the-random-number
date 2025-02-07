@@ -7,11 +7,15 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class = "game">
+    <div class = "title">
     <h2>Guess the Number (Between 1 and 100)</h2>
+     </div>
+
+    <div class = "game">
     <input type="number" id="userGuess" placeholder="Enter your guess">
     <button onclick="checkGuess()">Submit Guess</button>
     <p id="result"></p>
+    </div>
 
     <script>
         // Generate a random number between 1 and 100
@@ -38,6 +42,5 @@
             }
         }
     </script>
-    </div>
 </body>
 </html>
