@@ -8,13 +8,12 @@
 </head>
 <body>
     <h2>Guess the Number (Between 1 and 100)</h2>
-    <div class = "game">
     <input type="number" id="userGuess" placeholder="Enter your guess">
     <button onclick="checkGuess()">Submit Guess</button>
     <p id="result"></p>
-    </div>
 
     <script>
+        
         // Generate a random number between 1 and 100
         const randomNumber = Math.floor(Math.random() * 100) + 1;
         console.log("Random Number (for debugging):", randomNumber); // Uncomment for testing
